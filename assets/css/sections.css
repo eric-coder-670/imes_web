@@ -1,0 +1,78 @@
+/* Styles améliorés pour les titres de section */
+.section-title {
+  position: relative;
+  margin-bottom: 3rem;
+  padding: 0 1rem;
+}
+
+.section-title h6 {
+  font-size: 0.875rem;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.section-title h6::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.section-title h2 {
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.section-title p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-dark);
+  opacity: 0.9;
+  margin: 0 auto;
+}
+
+/* Animation améliorée */
+.section-title .wow {
+  animation-duration: 0.8s;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-title {
+    padding: 0 0.5rem;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+  }
+
+  .section-title p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+/* Effet de surbrillance */
+.section-title::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(
+    circle,
+    rgba(var(--primary-color-rgb), 0.1) 0%,
+    rgba(var(--primary-color-rgb), 0) 70%
+  );
+  z-index: 0;
+  pointer-events: none;
+}

@@ -1,0 +1,33 @@
+/* Styles pour le texte justifié */
+.text-justify {
+  text-align: justify !important;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.equal-height-text {
+  line-height: 1.8;
+  font-size: 1rem;
+  color: var(--text-dark);
+}
+
+/* Amélioration de la lisibilité sur mobile */
+@media (max-width: 768px) {
+  .equal-height-text {
+    text-align: left;
+    padding: 0 10px;
+    font-size: 0.95rem;
+  }
+}
+
+/* Amélioration des espacements */
+.blog-content .equal-height-text {
+  margin-bottom: 1.5rem;
+}
+
+/* Optimisation de la justification */
+.text-justify:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}

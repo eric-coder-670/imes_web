@@ -1,0 +1,214 @@
+/* Enhanced Global Styles */
+:root {
+  --transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --box-shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --box-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --box-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --spacing-section: clamp(3rem, 8vw, 6rem);
+}
+
+/* Global Enhancements */
+body {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+  padding: var(--spacing-section) 0;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Typography Improvements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.02em;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Enhanced Animations */
+.wow {
+  visibility: hidden;
+}
+
+.fadeInUp {
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+}
+
+/* Navigation Enhancements */
+.header_navbar {
+  transition: var(--transition-base);
+}
+
+.header_navbar.sticky {
+  backdrop-filter: blur(10px);
+}
+
+.nav-item {
+  position: relative;
+}
+
+/* Button Enhancements */
+.btn {
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition-base);
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease, height 0.6s ease;
+}
+
+.btn:hover::after {
+  width: 300%;
+  height: 300%;
+}
+
+/* Section Enhancements */
+.section-title {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: var(--secondary-color);
+  border-radius: 2px;
+}
+
+/* Card Enhancements */
+[class*="card"] {
+  transition: var(--transition-base);
+}
+
+[class*="card"]:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Enhancements */
+img {
+  transition: var(--transition-base);
+}
+
+/* Form Enhancements */
+.form-control {
+  transition: var(--transition-base);
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 3px rgba(var(--primary-color-rgb), 0.1);
+}
+
+/* Footer Enhancements */
+.footer-area {
+  position: relative;
+}
+
+.footer-widget {
+  position: relative;
+}
+
+/* Responsive Improvements */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+/* Enhanced Scroll Behavior */
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+/* Background Patterns */
+.bg-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.05;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Loading States */
+.loading {
+  position: relative;
+}
+
+.loading::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+}
+
+/* Hover Effects */
+.hover-lift {
+  transition: var(--transition-base);
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--box-shadow-lg);
+}
+
+/* Text Selection */
+::selection {
+  background: var(--primary-color);
+  color: white;
+}
+
+/* Scroll to Top Enhancement */
+.back-to-top {
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition-base);
+}
+
+.back-to-top.active {
+  opacity: 1;
+  visibility: visible;
+}
