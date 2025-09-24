@@ -2235,7 +2235,7 @@ blog css
 
 .blog-area .single-blog .blog-img a img {
   width: 100%;
-  max-height: 123px;
+  max-height: 190px;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
