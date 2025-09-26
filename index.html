@@ -576,7 +576,7 @@
           </div>
           <div class="contact-content">
             <!-- <h3>Disponible pour vous</h3> -->
-            <h4><a href="tel:+33123456789">Tel : 01 23 45 67 89</a></h4>
+            <h4><a href="tel:+33123456789">Tel : </a></h4>
             <h4>
               <a href="mailto:contact@imes-consulting.fr">E-mail : infos@imessarl.com</a>
             </h4>
@@ -585,25 +585,33 @@
         </div>
         <div class="col-xl-7 col-lg-7">
           <div class="contact-form-wrapper">
-            <form action="assets/contact.php">
+            <form action="https://formsubmit.co/ericfridolin85@gmail.com" method="POST">
+              <!-- Options FormSubmit -->
+              <input type="hidden" name="_next" value="https://ton-site.com/merci.html">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_subject" value="Nouveau message depuis le site">
+
               <div class="row">
                 <div class="col-md-6">
-                  <input type="text" placeholder="Name" name="name" id="name" />
+                  <input type="text" placeholder="Name" name="name" id="name" required />
                 </div>
                 <div class="col-md-6">
-                  <input type="email" placeholder="Email" name="email" id="email" />
+                  <input type="email" placeholder="Email" name="email" id="email" required />
                 </div>
               </div>
+
               <div class="row">
                 <div class="col-12">
-                  <input type="text" placeholder="Subject" name="subject" id="subject" />
+                  <input type="text" placeholder="Subject" name="subject" id="subject" required />
                 </div>
               </div>
+
               <div class="row">
                 <div class="col-12">
-                  <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+                  <textarea name="message" id="message" rows="4" placeholder="Message" required></textarea>
                 </div>
               </div>
+
               <div class="row">
                 <div class="col-12 text-right">
                   <button class="main-btn btn-hover" type="submit">
@@ -612,6 +620,7 @@
                 </div>
               </div>
             </form>
+
           </div>
         </div>
       </div>
@@ -661,13 +670,13 @@
             <h5>Contact</h5>
             <ul>
               <li>
-                <p>Tél: 01 23 45 67 89</p>
+                <p>Tél: </p>
               </li>
               <li>
                 <p>Email: infos@imessarl.com</p>
               </li>
               <li>
-                <p>Marché saker deido<br />DEIDO , CAMEROUN</p>
+                <p>Marché saker deido<br />BP: 8282 Douala – Cameroun.</p>
               </li>
             </ul>
           </div>
