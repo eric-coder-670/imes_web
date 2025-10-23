@@ -11,13 +11,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!--====== Favicon Icon ======-->
-  <link rel="shortcut icon" href="assets/images/images.png" type="image/png" />
+  <link rel="shortcut icon" href="assets/images/Logo.jpeg" type="image/png" />
 
   <!--====== Animate CSS ======-->
   <link rel="stylesheet" href="assets/css/animate.css" />
 
   <!--====== Line Icons CSS ======-->
   <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+
 
   <!--====== Bootstrap CSS ======-->
   <link rel="stylesheet" href="assets/css/bootstrap-5.0.5-alpha.min.css" />
@@ -33,6 +34,8 @@
   <link rel="stylesheet" href="assets/css/enhancements.css" />
   <!--====== Sections Styles ======-->
   <link rel="stylesheet" href="assets/css/sections.css" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
   <!--====== Text Styles ======-->
   <link rel="stylesheet" href="assets/css/text-styles.css" />
 </head>
@@ -76,7 +79,7 @@
           <div class="col-xl-12">
             <nav class="navbar navbar-expand-lg">
               <a class="navbar-brand" href="index.html">
-                <img id="logo" src="assets/images/images.png" alt="Logo" />
+                <img id="logo" src="assets/images/Logo.jpeg" alt="Logo" />
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -127,13 +130,14 @@
         <div class="col-xl-5 offset-xl-7 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
           <div class="hero-content">
             <h2 class="mb-28 wow fadeInUp" data-wow-delay=".2s">
-              IMES Sarl
+              IMES Consulting
             </h2>
-            <h4 class="text-danger">Votre Partenaire en Solutions d'Entreprise</h4>
-            <p class="wow fadeInUp" data-wow-delay=".4s">
-              Expertise, innovation et engagement pour transformer vos défis
-              en opportunités. Nous accompagnons votre croissance avec des
-              solutions sur mesure.
+            <h4 class="text-danger font-weight-light">Votre Partenaire en Solutions d'Entreprise</h4>
+            <p class="wow fadeInUp text-justify " data-wow-delay=".4s">
+              Expert dans les métiers de services, nous sommes un cabinet spécialisé dans le
+              conseil, assistance en stratégie et management.
+              Nous accompagnons les entreprises depuis une dizaine d'années afin de répondre à leurs
+              besoins suivant les différentes phases de leur développement
             </p>
             <div class="hero-btns">
               <a href="#services" class="main-btn wow fadeInUp" data-wow-delay=".6s">Nos Services</a>
@@ -150,6 +154,63 @@
   </section>
   <!--====== HERO PART END ======-->
 
+  <section class="welcome-area">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Texte -->
+        <div class="col-xl-6 col-lg-6">
+          <div class="welcome-content">
+            <div class="section-title">
+              <h2 class="mb-35 wow fadeInUp" data-wow-delay=".2s">
+                Transformez votre entreprise avec IMES
+              </h2>
+            </div>
+            <div class="content text-break ">
+              <p class="mb-35 wow fadeInUp " data-wow-delay=".4s">
+                Depuis plus d'une dizaine d'années nous accompagnons ( à travers le programme de mise à niveau des
+                entreprises) avec succès de nombreuses entreprises à différentes étapes de leur
+                développement.
+              </p>
+              <a href="#" rel="nofollow" class="read-more-btn wow fadeInUp" data-wow-delay=".5s">
+                Purchase Now <i class="lni lni-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vidéo futuriste avec formes -->
+        <div class="col-xl-6 col-lg-6">
+          <div class="welcome-video wow fadeInRight" data-wow-delay=".3s">
+            <div class="video-wrapper">
+              <video id="imesVideo" class="futuristic-video">
+                <source src="assets/videos/Formation.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture vidéo.
+              </video>
+
+              <!-- Overlay futuriste -->
+              <div class="video-overlay"></div>
+
+              <!-- Bouton Play/Pause -->
+              <button id="videoBtn" class="video-btn">
+                <span class="pulse"></span>
+                <i class="lni lni-play"></i>
+              </button>
+
+              <!-- Formes graphiques décoratives -->
+              <div class="graphic-shapes">
+                <div class="circle"></div>
+                <div class="hexagon"></div>
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--====== WELCOME PART ENDS ======-->
   <!--====== ABOUT PART START ======-->
   <section id="about" class="skill-area pt-170">
     <div class="container">
@@ -174,8 +235,11 @@
             <div class="about-content">
               <h4 class="fw-bold mb-3">Notre Mission</h4>
               <p class="text-secondary lh-base">
-                Accompagner les entreprises dans leur transformation digitale et leur développement stratégique avec des
-                solutions innovantes et personnalisées.
+                IMES Consulting accompagne les entreprises et organisations dans la définition et la mise en œuvre de
+                stratégies de
+                développement, le management et le suivi de projets, la formation professionnelle pour renforcer les
+                compétences, ainsi
+                que le montage et la structuration de projets viables et durables.
               </p>
             </div>
           </div>
@@ -188,9 +252,13 @@
             <div class="about-content">
               <h4 class="fw-bold mb-3">Nos Valeurs</h4>
               <p class="text-secondary lh-base">
-                Excellence, innovation, intégrité et engagement envers nos clients sont les piliers qui guident chacune
-                de nos actions.
-              </p>
+                IMES Consulting s’engage à offrir des services de qualité fondés sur l’excellence, en proposant des
+                solutions innovantes
+                et adaptées aux besoins des clients. Nous privilégions la transparence et le respect des engagements,
+                favorisons une
+                collaboration étroite avec nos partenaires et œuvrons pour un impact positif durable dans chaque projet
+                que nous
+                réalisons.
             </div>
           </div>
         </div>
@@ -202,9 +270,13 @@
             <div class="about-content">
               <h4 class="fw-bold mb-3">Notre Expertise</h4>
               <p class="text-secondary lh-base">
-                Une équipe de consultants certifiés et expérimentés, spécialisés dans divers domaines du conseil en
-                entreprise.
-              </p>
+                Chez IMES Consulting, nous mobilisons une expertise multidisciplinaire pour booster la croissance et la
+                performance des
+                organisations. Nos interventions couvrent le conseil stratégique, le management et le suivi de projets,
+                la formation et
+                le renforcement des capacités, la réalisation d’études et diagnostics, ainsi que le montage et le
+                financement de projets
+                viables.
             </div>
           </div>
         </div>
@@ -238,16 +310,13 @@
               <h4>Conseil Stratégique</h4>
               <p>Notre expertise en conseil vous accompagne dans :</p>
               <ul class="service-features">
-                <li><i class="lni lni-checkmark"></i> Analyse stratégique</li>
-                <li>
-                  <i class="lni lni-checkmark"></i> Développement commercial
-                </li>
-                <li>
-                  <i class="lni lni-checkmark"></i> Optimisation des
-                  performances
-                </li>
+                <li><i class="lni lni-checkmark"></i> Stratégie RSE & Feuilles de route durables </li>
+                <li><i class="lni lni-checkmark"></i> Suivi, évaluation & Amélioration continue </li>
+                <li><i class="lni lni-checkmark"></i> Diagnostic & Évaluation RSE</li>
+                <li><i class="lni lni-checkmark"></i> Analyse stratégique etc...</li>
               </ul>
-              <a href="#contact" class="btn-secondary mt-20">En savoir plus</a>
+              <a href="/assets/docs/Offre_service_Conseil.pdf" download class="btn-secondary mt-20">En savoir
+                plus</a>
             </div>
           </div>
         </div>
@@ -262,9 +331,10 @@
               <h4>Formation</h4>
               <p>Nous proposons des programmes de formation pratiques et adaptés dans :</p>
               <ul class="service-features">
+                <li><i class="lni lni-checkmark"></i>outils bureautiques (Power BI, Excel avancé)</li>
                 <li><i class="lni lni-checkmark"></i> Gestion de projet (PMP®, MS Project)</li>
-                <li><i class="lni lni-checkmark"></i> Bureautique (office365 , etc.)</li>
-                <li><i class="lni lni-checkmark"></i> Techniques de vente, etc..</li>
+                <li><i class="lni lni-checkmark"></i> excellence opérationnelle</li>
+                <li><i class="lni lni-checkmark"></i> Ethical Hacking etc...</li>
               </ul>
               <a href="#contact" class="btn-secondary mt-20">En savoir plus</a>
             </div>
@@ -274,23 +344,17 @@
           <div class="single-blog wow fadeInUp" data-wow-delay=".4s">
             <div class="blog-img">
               <a href="#contact" class="d-block">
-                <img src="assets/images/course/article-transformation-digitale.png" alt="Transformation Digitale" />
+                <img src="assets/images/Certif.jpg" alt="Transformation Digitale" />
               </a>
             </div>
             <div class="blog-content">
-              <h4>Transformation Digitale</h4>
-              <p>Accélérez votre transition <br> numérique avec :</p>
+              <h4>Certifications </h4>
+              <p>Obtenez des certifications internationales pour valoriser vos compétences.</p>
               <ul class="service-features">
-                <li>
-                  <i class="lni lni-checkmark"></i> Solutions innovantes
-                </li>
-                <li>
-                  <i class="lni lni-checkmark"></i> Digitalisation des
-                  processus
-                </li>
-                <li>
-                  <i class="lni lni-checkmark"></i> Intégration technologique
-                </li>
+                <li><i class="lni lni-checkmark"></i> Balanced scorecard</li>
+                <li><i class="lni lni-checkmark"></i> Lean six sigma </li>
+                <li><i class="lni lni-checkmark"></i> IRCA</li>
+                <li><i class="lni lni-checkmark"></i> ITIL etc...</li>
               </ul>
               <a href="#contact" class="btn-secondary mt-20">En savoir plus</a>
             </div>
@@ -300,42 +364,7 @@
   </section>
   <!--====== COURSES PART ENDS ======-->
 
-  <!--====== WELCOME PART START ======-->
-  <!-- <section class="welcome-area">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-6 col-lg-6">
-            <div class="welcome-content">
-              <div class="section-title">
-                <h2 class="mb-35 wow fadeInUp" data-wow-delay=".2s">
-                  You are using free lite version of Learn
-                </h2>
-              </div>
-              <div class="content">
-                <p class="mb-35 wow fadeInUp" data-wow-delay=".4s">
-                  Please purchase full version of the template to get all pages,
-                  sections, features and permission to remove footer credits.
-                </p>
 
-                <a
-                  href="https://rebrand.ly/learn-ud"
-                  rel="nofollow"
-                  class="read-more-btn wow fadeInUp"
-                  data-wow-delay=".5s"
-                  >Purchase Now <i class="lni lni-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="welcome-img">
-              <img src="assets/images/welcome-img.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-  <!--====== WELCOME PART ENDS ======-->
 
   <!--====== CATEGORIES PART START ======-->
   <!-- <section class="categories-area pt-170 pb-170">
@@ -460,105 +489,135 @@
   <!--====== TESTIMONIAL PART ENDS ======-->
 
   <!--====== BLOG PART START ======-->
-  <section id="formations" class="blog-area pt-170 pb-140 bg-light">
-    <div class="container">
+  <section id="formations" class="blog-area py-5 bg-light">
+    <div class="container py-5">
       <div class="row">
         <div class="col-12 col-lg-8 mx-auto">
           <div class="section-title text-center mb-5 typography-enhanced">
-            <h2 class="wow fadeInUp fw-bold display-4 mb-2" data-wow-delay=".3s">Nos Formations</h2>
-            <p class="wow fadeInUp lead text-secondary mx-auto" style="max-width: 800px;" data-wow-delay=".4s">
-              Développez vos compétences avec nos formations professionnelles et reconnues . <br> Des certifications qui
-              font la différence dans votre parcours professionnel. </p>
+            <h2 class="wow fadeInUp fw-bold display-4 mb-4" data-wow-delay=".3s">Nos Formations</h2>
+            <div class="divider mx-auto mb-4" style="width: 80px; height: 3px; background-color: var(--primary);"></div>
+            <p class="wow fadeInUp lead text-secondary mx-auto mb-0" style="max-width: 800px;" data-wow-delay=".4s">
+              Développez vos compétences avec nos formations professionnelles et reconnues.
+              <br> Des certifications qui font la différence dans votre parcours professionnel.
+            </p>
           </div>
         </div>
       </div>
-      <div class="row gy-5">
-        <div class="col-xl-4 col-lg-4 col-md-6">
-          <div class="single-blog h-100">
-            <div class="blog-img" style="height: 200px; overflow: hidden;">
-              <a href="javascript:void(0)" class="d-block">
-                <img src="assets/images/9f952b609beeeb08e3a6105176ea3841.jpg" alt="PMP Certification"
-                  class="img-fluid" />
+
+      <div class="row g-4 justify-content-center">
+        <!-- Bloc 1 -->
+        <div class="col-xl-4 col-lg-4 col-md-6 d-flex">
+          <div class="single-blog formation-card w-100">
+            <div class="blog-img">
+              <a href="javascript:void(0)" class="d-block h-100">
+                <img src="assets/images/developpement-durable-definition-1024x485.webp" alt="PMP Certification"
+                  class="img-fluid h-100 w-100" />
               </a>
             </div>
-            <div class="blog-content text-justify h-100 p-4" style="min-height: 320px;">
-              <h4 class="text-center mb-4" style="height: 80px;">
-                <a href="javascript:void(0)" class="fw-bold">Formations Certifiantes</a>
-                <div class="text-muted small mt-1">Gestion de Projet Professionnel</div>
-              </h4>
-              <p class="equal-height-text lh-base mb-4 text-justify" style="height: 180px; padding: 0 15px;">
-                Développez vos compétences avec notre large gamme de formations certifiantes reconnues
-                internationalement. Nos programmes couvrent divers domaines : gestion de projet, management,
-                gouvernance IT, cybersécurité, qualité et bien plus encore. Formation adaptée à vos besoins.
-              </p>
-              <div class="text-center">
-                <a href="assets/docs/catalogue_2025_IMES_Consulting.pdf" download
-                  class="btn btn-outline-primary rounded-pill px-4">
-                  <i class="lni  me-2"></i>En savoir plus
-                </a>
+            <div class="blog-content p-3">
+              <div class="text-center mb-3" style="min-height: 60px;">
+                <h4><a href="javascript:void(0)" class="fw-bold"
+                    style="font-size: 1.2rem; line-height: 1.4;">Développement Durable & RSE</a></h4>
+                <p class="text-muted small m-0">Responsabilité Sociétale des Entreprises</p>
               </div>
+              <p class="equal-height-text text-justify  px-3">
+                Renforcez vos compétences en matière de développement durable et responsabilité sociétale des
+                entreprises
+                (RSE).
+                Nos formations abordent les enjeux environnementaux, sociaux et de gouvernance, afin d’intégrer des
+                pratiques responsables et durables dans vos stratégies. Des programmes adaptés pour créer un impact
+                positif et pérenne.
+              </p>
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6">
-          <div class="single-blog h-100">
-            <div class="blog-img" style="height: 200px; overflow: hidden;">
-              <a href="javascript:void(0)" class="d-block">
+
+        <!-- Bloc 2 -->
+        <div class="col-xl-4 col-lg-4 col-md-6 d-flex">
+          <div class="single-blog formation-card w-100">
+            <div class="blog-img">
+              <a href="javascript:void(0)" class="d-block h-100">
                 <img src="assets/images/commercial-vente-jpeg.jpg" alt="Commercial et Vente"
-                  style="width: 100%; height: 100%; object-fit: cover;" />
+                  class="img-fluid h-100 w-100" />
               </a>
             </div>
-            <div class="blog-content text-justify h-100 p-4" style="min-height: 320px;">
-              <h4 class="text-center mb-4" style="height: 80px;">
-                <a href="javascript:void(0)" class="fw-bold">Commercial & Vente</a>
-                <div class="text-muted small mt-1">Techniques de Vente Avancées</div>
-              </h4>
-              <p class="equal-height-text lh-base mb-4 text-justify" style="height: 180px; padding: 0 15px;">
-                Développez vos compétences commerciales avec nos formations certifiantes.
-                Maîtrisez les techniques de vente modernes, la négociation commerciale,
-                la prospection efficace et la gestion de la relation client. Devenez
-                un expert en développement commercial.</p>
-              <div class="text-center">
-                <a href="assets/docs/catalogue_2025_IMES_Consulting.pdf" download
-                  class="btn btn-outline-primary rounded-pill px-4">
-                  <i class="lni  me-2"></i>En savoir plus
-                </a>
+            <div class="blog-content p-3">
+              <div class="text-center mb-3" style="min-height: 60px;">
+                <h4><a href="javascript:void(0)" class="fw-bold"
+                    style="font-size: 1.2rem; line-height: 1.4;">Gouvernance</a></h4>
+                <p class="text-muted small m-0">Leadership & Conformité</p>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-4 col-md-6">
-          <div class="single-blog h-100">
-            <div class="blog-img" style="height: 200px; overflow: hidden;">
-              <a href="javascript:void(0)" class="d-block">
-                <img src="assets/images/formation-bureautique.webp" alt="Bureautique et Outils Professionnels"
-                  style="width: 100%; height: 100%; object-fit: cover;" />
-              </a>
-            </div>
-            <div class="blog-content text-justify h-100 p-4" style="min-height: 320px;">
-              <h4 class="text-center mb-4" style="height: 80px;">
-                <a href="javascript:void(0)" class="fw-bold">Bureautique</a>
-                <div class="text-muted small mt-1">Microsoft Office & Outils Professionnels</div>
-              </h4>
-              <p class="equal-height-text lh-base mb-4 text-justify" style="height: 180px; padding: 0 15px;">
-                Maîtrisez les outils bureautiques essentiels avec nos formations certifiantes : <br>
-                Microsoft Office (Word, Excel, PowerPoint)
-                <br>Microsoft 365 et Outils Collaboratifs
-                <br>Solutions de Gestion Documentaire
+              <p class="equal-height-text text-justify px-3">
+                Maîtrisez les principes de gouvernance pour assurer transparence, conformité et performance dans votre
+                organisation.
+                Nos formations couvrent la gouvernance d’entreprise, la gestion des risques, l’éthique et la
+                responsabilité,
+                afin de renforcer votre leadership et garantir une prise de décision durable et responsable.
               </p>
-              <div class="text-center">
-                <a href="assets/docs/catalogue_2025_IMES_Consulting.pdf" download
-                  class="btn btn-outline-primary rounded-pill px-4">
-                  <i class="lni  me-2"></i>En savoir plus
-                </a>
-              </div>
             </div>
           </div>
         </div>
+
+        <!-- Bloc 3 -->
+        <div class="col-xl-4 col-lg-4 col-md-6 d-flex">
+          <div class="single-blog formation-card w-100">
+            <div class="blog-img">
+              <a href="javascript:void(0)" class="d-block h-100">
+                <img src="assets/images/Certif.jpg" alt="Bureautique et Outils Professionnels"
+                  class="img-fluid h-100 w-100" />
+              </a>
+            </div>
+            <div class="blog-content p-3">
+              <div class="text-center mb-3" style="min-height: 60px;">
+                <h4><a href="javascript:void(0)" class="fw-bold"
+                    style="font-size: 1.2rem; line-height: 1.4;">Certifications internationales</a></h4>
+                <p class="text-muted small m-0">Reconnaissance Mondiale</p>
+              </div>
+              <p class="equal-height-text text-justify px-3">
+                Obtenez des certifications reconnues à l’échelle internationale pour valoriser vos compétences et
+                booster
+                votre carrière.
+                Nos programmes incluent des standards mondiaux en gestion de projet, gouvernance IT, cybersécurité,
+                qualité et bien plus,
+                afin de garantir votre crédibilité et votre compétitivité sur le marché global.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="#" class="btn btn-outline-primary rounded-pill px-4 read-more-toggle" aria-expanded="false">
+          <i class="lni me-2"></i><span class="read-more-label">En savoir plus sur nos formations</span>
+        </a>
       </div>
     </div>
   </section>
+
   <!--====== BLOG PART ENDS ======-->
+  <section class="clients">
+    <h2>Ils nous font confiance</h2>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="assets/images/entreprises/logo.svg" alt="TotalEnergies"></div>
+        <div class="swiper-slide"><img src="assets/images/entreprises/logo_pad-800x800-nobg.png" alt="PAD"></div>
+        <div class="swiper-slide"><img src="assets/images/entreprises/image.png" alt="PAK"></div>
+        <div class="swiper-slide"><img src="assets/images/entreprises/Okwelians.png" alt="The Okwelians"></div>
+        <div class="swiper-slide">
+          <img src="assets/images/entreprises/Cimencam.jpg" alt="Cimencam">
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/images/entreprises/logo-Guce.png" alt="GUCE">
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/images/entreprises/SGS.png" alt="SGS">
+        </div>
+        <div class="swiper-slide"><img src="assets/images/entreprises/Boissons_du_Cameroun_(logo).png"
+            alt="Boissons_du_Cameroun_"></div>
+        <div class="swiper-slide"><img src="assets/images/entreprises/Eneo_Cameroon_logo.jpg" alt="Eneo_Cameroon"></div>
+      </div>
+    </div>
+  </section>
 
   <!--====== CONTACT PART START ======-->
   <section id="contact" class="contact-area">
@@ -576,7 +635,7 @@
           </div>
           <div class="contact-content">
             <!-- <h3>Disponible pour vous</h3> -->
-            <h4><a href="tel:+33123456789">Tel : </a></h4>
+            <h4><a href="tel:+33123456789">Tel: (+237) 651 51 43 92/696 30 03 04 </a></h4>
             <h4>
               <a href="mailto:contact@imes-consulting.fr">E-mail : infos@imessarl.com</a>
             </h4>
@@ -634,7 +693,7 @@
         <div class="col-xl-3 col-lg-3 col-md-6">
           <div class="footer-widget">
             <a href="index.html" class="logo d-blok">
-              <img src="assets/images/images.png" alt="IMES Consulting Logo" />
+              <img src="assets/images/Logo.jpeg" alt="IMES Consulting Logo" />
             </a>
             <p>
               IMES Consulting accompagne les entreprises dans leur
@@ -669,7 +728,7 @@
             <h5>Contact</h5>
             <ul>
               <li>
-                <p>Tél: </p>
+                <p>Tél: (+237) 651 51 43 92 <br> / 696 30 03 04 </p>
               </li>
               <li>
                 <p>Email: infos@imessarl.com</p>
@@ -727,6 +786,12 @@
 
   <!--====== Main js ======-->
   <script src="assets/js/main.js"></script>
+
+  <!--==== Clear Contact Form ====-->
+  <script src="assets/js/clear-form.js"></script>
+
+  <!--==== Pause start videos welcom ====-->
+  <script src="assets/js/play_pause.js"></script>
 
   <script>
     // Get the navbar
@@ -800,6 +865,45 @@
     navbarToggler.addEventListener("click", function () {
       navbarToggler.classList.toggle("active");
     });
+  </script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      loop: true,
+      speed: 800, // transition douce
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        320: { slidesPerView: 2, spaceBetween: 20 },
+        640: { slidesPerView: 3, spaceBetween: 20 },
+        1024: { slidesPerView: 4, spaceBetween: 30 },
+      }
+    });
+  </script>
+
+
+  <style>
+
+  </style>
+  <script>
+    // Le script read-more a été retiré car les textes s'affichent maintenant en entier
   </script>
 </body>
 
