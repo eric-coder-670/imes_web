@@ -22,6 +22,8 @@
 
   <!--====== Bootstrap CSS ======-->
   <link rel="stylesheet" href="assets/css/bootstrap-5.0.5-alpha.min.css" />
+  <!--====== Bootstrap COMPONENT======-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
 
   <!--====== Style CSS ======-->
   <link rel="stylesheet" href="assets/css/style.css" />
@@ -306,60 +308,314 @@
                 <img src="assets/images/course/BPM-Inovadex-consulting.jpg" alt="Conseil Stratégique" />
               </a>
             </div>
+
             <div class="blog-content">
               <h4>Conseil Stratégique</h4>
               <p>Notre expertise en conseil vous accompagne dans :</p>
-              <ul class="service-features">
-                <li><i class="lni lni-checkmark"></i> Stratégie RSE & Feuilles de route durables </li>
-                <li><i class="lni lni-checkmark"></i> Suivi, évaluation & Amélioration continue </li>
-                <li><i class="lni lni-checkmark"></i> Diagnostic & Évaluation RSE</li>
-                <li><i class="lni lni-checkmark"></i> Analyse stratégique etc...</li>
-              </ul>
-              <a href="/assets/docs/Offre_service_Conseil.pdf" download class="btn-secondary mt-20">En savoir
-                plus</a>
+
+              <div class="accordion" id="accordionConseil">
+
+                <!-- Mission 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseConseil1" aria-expanded="true" aria-controls="collapseConseil1">
+                      MISSIONS STRATÉGIQUES
+                    </button>
+                  </h2>
+                  <div id="collapseConseil1" class="accordion-collapse collapse" data-bs-parent="#accordionConseil">
+                    <div class="accordion-body">
+                      <ul class="service-features">
+                        <li><i class="lni lni-checkmark"></i> Diagnostic stratégique & repositionnement</li>
+                        <li><i class="lni lni-checkmark"></i> Conduite de projets de transformation</li>
+                        <li><i class="lni lni-checkmark"></i> Planification stratégique pluriannuelle</li>
+                        <li><i class="lni lni-checkmark"></i> Stratégies d’internationalisation</li>
+                        <li><i class="lni lni-checkmark"></i> Réorganisation des structures et fonctions</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Mission 2 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseConseil2" aria-expanded="false" aria-controls="collapseConseil2">
+                      MISSIONS ORGANISATIONNELLES
+                    </button>
+                  </h2>
+                  <div id="collapseConseil2" class="accordion-collapse collapse" data-bs-parent="#accordionConseil">
+                    <div class="accordion-body">
+                      <ul class="service-features">
+                        <li><i class="lni lni-checkmark"></i> Réorganisation des structures et fonctions</li>
+                        <li><i class="lni lni-checkmark"></i> Amélioration de la gouvernance</li>
+                        <li><i class="lni lni-checkmark"></i> Management par processus (BPM)</li>
+                        <li><i class="lni lni-checkmark"></i> Développement des compétences managériales</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Mission 3 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseConseil3" aria-expanded="false" aria-controls="collapseConseil3">
+                      MISSIONS SPÉCIFIQUES POUR LE SECTEUR PUBLIC
+                    </button>
+                  </h2>
+                  <div id="collapseConseil3" class="accordion-collapse collapse" data-bs-parent="#accordionConseil">
+                    <div class="accordion-body">
+                      <ul class="service-features">
+                        <li><i class="lni lni-checkmark"></i> Modernisation de l’administration</li>
+                        <li><i class="lni lni-checkmark"></i> Appui à la mise en œuvre de réformes</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Mission 4 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseConseil4" aria-expanded="false" aria-controls="collapseConseil4">
+                      RSE & ESG
+                    </button>
+                  </h2>
+                  <div id="collapseConseil4" class="accordion-collapse collapse" data-bs-parent="#accordionConseil">
+                    <div class="accordion-body">
+                      <ul class="service-features">
+                        <li><i class="lni lni-checkmark"></i> Diagnostic & Évaluation RSE</li>
+                        <li><i class="lni lni-checkmark"></i> Stratégie RSE & Feuilles de route durables</li>
+                        <li><i class="lni lni-checkmark"></i> Reporting extra-financier & communication d’impact</li>
+                        <li><i class="lni lni-checkmark"></i> Gouvernance responsable & partenariats durables</li>
+                        <li><i class="lni lni-checkmark"></i> Suivi, évaluation et amélioration continue</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Bouton optionnel -->
+              <!--
+              <a href="/assets/docs/Offre_service_Conseil.pdf" download class="btn-secondary mt-20">
+                En savoir plus
+              </a>
+              -->
+
             </div>
           </div>
         </div>
+
         <div class="col-xl-4 col-lg-4 col-md-6">
           <div class="single-blog wow fadeInUp" data-wow-delay=".2s">
             <div class="blog-img">
               <a href="#contact" class="d-block">
-                <img src="assets/images/Formation_opt-1.jpg" alt="Conseil Stratégique" />
+                <img src="assets/images/Formation_opt-1.jpg" alt="Formation" />
               </a>
             </div>
+
             <div class="blog-content">
               <h4>Formation</h4>
               <p>Nous proposons des programmes de formation pratiques et adaptés dans :</p>
-              <ul class="service-features">
-                <li><i class="lni lni-checkmark"></i>outils bureautiques (Power BI, Excel avancé)</li>
-                <li><i class="lni lni-checkmark"></i> Gestion de projet (PMP®, MS Project)</li>
-                <li><i class="lni lni-checkmark"></i> excellence opérationnelle</li>
-                <li><i class="lni lni-checkmark"></i> Ethical Hacking etc...</li>
-              </ul>
-              <a href="#contact" class="btn-secondary mt-20">En savoir plus</a>
+
+              <div class="accordion" id="accordionFormation">
+
+                <!-- Bloc 1 : Compétences Bureautiques -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFormation1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFormation1" aria-expanded="false" aria-controls="collapseFormation1">
+                      OUTILS BUREAUTIQUES & DATA
+                    </button>
+                  </h2>
+                  <div id="collapseFormation1" class="accordion-collapse collapse" aria-labelledby="headingFormation1"
+                    data-bs-parent="#accordionFormation">
+                    <div class="accordion-body">
+                      <ul class="service-features">
+                        <li><i class="lni lni-checkmark"></i> Power BI – Visualisation & Analyse de données</li>
+                        <li><i class="lni lni-checkmark"></i> Excel Avancé – Tableaux croisés dynamiques, automatisation
+                        </li>
+                        <li><i class="lni lni-checkmark"></i> Outils collaboratifs Microsoft 365</li>
+                        <li><i class="lni lni-checkmark"></i> Tableaux de bord et reporting automatisé</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bloc 2 : Gestion de Projet -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFormation2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFormation2" aria-expanded="false" aria-controls="collapseFormation2">
+                      GESTION DE PROJET
+                    </button>
+                  </h2>
+                  <div id="collapseFormation2" class="accordion-collapse collapse" aria-labelledby="headingFormation2"
+                    data-bs-parent="#accordionFormation">
+                    <div class="accordion-body">
+                      <ul class="service-features">
+                        <li><i class="lni lni-checkmark"></i> MS Project – Planification & Suivi</li>
+                        <li><i class="lni lni-checkmark"></i> Gestion agile (Scrum, Kanban)</li>
+                        <li><i class="lni lni-checkmark"></i> Méthodes hybrides et gouvernance de projet</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bloc 3 : Excellence Opérationnelle -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFormation3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFormation3" aria-expanded="false" aria-controls="collapseFormation3">
+                      EXCELLENCE OPÉRATIONNELLE
+                    </button>
+                  </h2>
+                  <div id="collapseFormation3" class="accordion-collapse collapse" aria-labelledby="headingFormation3"
+                    data-bs-parent="#accordionFormation">
+                    <div class="accordion-body">
+                      <ul class="service-features">
+                        <li><i class="lni lni-checkmark"></i> Lean Management & amélioration continue</li>
+                        <li><i class="lni lni-checkmark"></i> Six Sigma – Green Belt / Yellow Belt</li>
+                        <li><i class="lni lni-checkmark"></i> Cartographie et optimisation des processus</li>
+                        <li><i class="lni lni-checkmark"></i> Culture de la performance</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bloc 4 : Cybersécurité & Hacking Éthique -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFormation4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseFormation4" aria-expanded="false" aria-controls="collapseFormation4">
+                      CYBERSÉCURITÉ & HACKING ÉTHIQUE
+                    </button>
+                  </h2>
+                  <div id="collapseFormation4" class="accordion-collapse collapse" aria-labelledby="headingFormation4"
+                    data-bs-parent="#accordionFormation">
+                    <div class="accordion-body">
+                      <ul class="service-features">
+                        <li><i class="lni lni-checkmark"></i> Introduction à la cybersécurité</li>
+                        <li><i class="lni lni-checkmark"></i> Ethical Hacking – Sécurité des systèmes & réseaux</li>
+                        <li><i class="lni lni-checkmark"></i> Sécurité Cloud & sensibilisation utilisateurs</li>
+                        <li><i class="lni lni-checkmark"></i> Conformité RGPD & gestion des risques</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Bouton d’action -->
+              <!-- <a href="#contact" class="btn-secondary mt-20">En savoir plus</a> -->
             </div>
           </div>
         </div>
+
         <div class="col-xl-4 col-lg-4 col-md-6">
           <div class="single-blog wow fadeInUp" data-wow-delay=".4s">
             <div class="blog-img">
               <a href="#contact" class="d-block">
-                <img src="assets/images/Certif.jpg" alt="Transformation Digitale" />
+                <img src="assets/images/Certif.jpg" alt="Certifications" />
               </a>
             </div>
+
             <div class="blog-content">
-              <h4>Certifications </h4>
-              <p>Obtenez des certifications internationales pour valoriser vos compétences.</p>
-              <ul class="service-features">
-                <li><i class="lni lni-checkmark"></i> Balanced scorecard</li>
-                <li><i class="lni lni-checkmark"></i> Lean six sigma </li>
-                <li><i class="lni lni-checkmark"></i> IRCA</li>
-                <li><i class="lni lni-checkmark"></i> ITIL etc...</li>
-              </ul>
-              <a href="#contact" class="btn-secondary mt-20">En savoir plus</a>
+              <h4>Certifications</h4>
+              <p>Obtenez des certifications internationales reconnues pour valoriser vos compétences et booster votre
+                carrière.
+              </p>
+
+              <div class="accordion" id="accordionCertifications">
+
+                <!-- Bloc 1 : Management Stratégique -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingCertif1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseCertif1" aria-expanded="false" aria-controls="collapseCertif1">
+                      MANAGEMENT STRATÉGIQUE & PERFORMANCE
+                    </button>
+                  </h2>
+                  <div id="collapseCertif1" class="accordion-collapse collapse" aria-labelledby="headingCertif1"
+                    data-bs-parent="#accordionCertifications">
+                    <div class="accordion-body">
+                      <ul class="service-features">
+                        <li><i class="lni lni-checkmark"></i> Balanced Scorecard Professional (BSP™)</li>
+                        <li><i class="lni lni-checkmark"></i> Certified Strategy & Performance Management (CSPM™)</li>
+                        <li><i class="lni lni-checkmark"></i> OKR (Objectives & Key Results) Practitioner</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bloc 2 : Excellence Opérationnelle -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingCertif2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseCertif2" aria-expanded="false" aria-controls="collapseCertif2">
+                      EXCELLENCE OPÉRATIONNELLE
+                    </button>
+                  </h2>
+                  <div id="collapseCertif2" class="accordion-collapse collapse" aria-labelledby="headingCertif2"
+                    data-bs-parent="#accordionCertifications">
+                    <div class="accordion-body">
+                      <ul class="service-features">
+                        <li><i class="lni lni-checkmark"></i> Lean Six Sigma – Yellow, Green & Black Belt</li>
+                        <li><i class="lni lni-checkmark"></i> Kaizen & amélioration continue</li>
+                        <li><i class="lni lni-checkmark"></i> ISO 9001 – Management de la qualité</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bloc 3 : Systèmes de Management & Audit -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingCertif3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseCertif3" aria-expanded="false" aria-controls="collapseCertif3">
+                      SYSTÈMES DE MANAGEMENT & AUDIT
+                    </button>
+                  </h2>
+                  <div id="collapseCertif3" class="accordion-collapse collapse" aria-labelledby="headingCertif3"
+                    data-bs-parent="#accordionCertifications">
+                    <div class="accordion-body">
+                      <ul class="service-features">
+                        <li><i class="lni lni-checkmark"></i> IRCA – Lead Auditor ISO 9001 / ISO 45001 / ISO 14001</li>
+                        <li><i class="lni lni-checkmark"></i> ISO 27001 – Sécurité de l’information</li>
+                        <li><i class="lni lni-checkmark"></i> ISO 22301 – Continuité d’activité</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Bloc 4 : IT & Gouvernance -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingCertif4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseCertif4" aria-expanded="false" aria-controls="collapseCertif4">
+                      TECHNOLOGIE, IT & GOUVERNANCE
+                    </button>
+                  </h2>
+                  <div id="collapseCertif4" class="accordion-collapse collapse" aria-labelledby="headingCertif4"
+                    data-bs-parent="#accordionCertifications">
+                    <div class="accordion-body">
+                      <ul class="service-features">
+                        <li><i class="lni lni-checkmark"></i> ITIL® Foundation – Gestion des services informatiques</li>
+                        <li><i class="lni lni-checkmark"></i> COBIT® – Gouvernance des systèmes d’information</li>
+                        <li><i class="lni lni-checkmark"></i> ISO 20000 – Gestion de la qualité des services IT</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bouton d’action -->
             </div>
           </div>
         </div>
+
       </div>
   </section>
   <!--====== COURSES PART ENDS ======-->
@@ -505,7 +761,7 @@
       </div>
 
       <div class="row g-4 justify-content-center">
-        <!-- Bloc 1 -->
+
         <div class="col-xl-4 col-lg-4 col-md-6 d-flex">
           <div class="single-blog formation-card w-100">
             <div class="blog-img">
@@ -531,8 +787,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Bloc 2 -->
         <div class="col-xl-4 col-lg-4 col-md-6 d-flex">
           <div class="single-blog formation-card w-100">
             <div class="blog-img">
@@ -557,33 +811,124 @@
             </div>
           </div>
         </div>
-
-        <!-- Bloc 3 -->
         <div class="col-xl-4 col-lg-4 col-md-6 d-flex">
           <div class="single-blog formation-card w-100">
             <div class="blog-img">
               <a href="javascript:void(0)" class="d-block h-100">
-                <img src="assets/images/Certif.jpg" alt="Bureautique et Outils Professionnels"
+                <img src="assets/images/agile-product.jpg" alt="Bureautique et Outils Professionnels"
                   class="img-fluid h-100 w-100" />
               </a>
             </div>
             <div class="blog-content p-3">
               <div class="text-center mb-3" style="min-height: 60px;">
-                <h4><a href="javascript:void(0)" class="fw-bold"
-                    style="font-size: 1.2rem; line-height: 1.4;">Certifications internationales</a></h4>
-                <p class="text-muted small m-0">Reconnaissance Mondiale</p>
+                <h4>
+                  <a href="javascript:void(0)" class="fw-bold" style="font-size: 1.2rem; line-height: 1.4;">
+                    Gestion Agile
+                  </a>
+                </h4>
+                <p class="text-muted small m-0">Méthodes Agiles & Innovation</p>
               </div>
+
               <p class="equal-height-text text-justify px-3">
-                Obtenez des certifications reconnues à l’échelle internationale pour valoriser vos compétences et
-                booster
-                votre carrière.
-                Nos programmes incluent des standards mondiaux en gestion de projet, gouvernance IT, cybersécurité,
-                qualité et bien plus,
-                afin de garantir votre crédibilité et votre compétitivité sur le marché global.
+                Adoptez les approches Agiles pour améliorer la flexibilité, la collaboration et la performance de vos
+                équipes.
+                Nos formations et accompagnements couvrent les méthodes Scrum, Kanban, Lean, ainsi que la gestion de
+                projets
+                hybrides,
+                afin d’optimiser vos processus et d’accélérer la livraison de valeur.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 d-flex">
+          <div class="single-blog formation-card w-100">
+            <div class="blog-img">
+              <a href="javascript:void(0)" class="d-block h-100">
+                <img src="assets/images/lean management2.jpg" alt="Bureautique et Outils Professionnels"
+                  class="img-fluid h-100 w-100" />
+              </a>
+            </div>
+            <div class="blog-content p-3">
+              <div class="text-center mb-3" style="min-height: 60px;">
+                <h4>
+                  <a href="javascript:void(0)" class="fw-bold" style="font-size: 1.2rem; line-height: 1.4;">
+                    Lean Management & Amélioration Continue
+                  </a>
+                </h4>
+                <p class="text-muted small m-0">Excellence Opérationnelle</p>
+              </div>
+
+              <p class="equal-height-text text-justify px-3">
+                Développez une culture d’excellence opérationnelle grâce au Lean Management et à l’amélioration
+                continue.
+                Nos programmes vous accompagnent dans l’optimisation des processus, la réduction des gaspillages,
+                et la montée en performance durable à travers des approches telles que le Kaizen, le Six Sigma et le
+                Lean Office.
               </p>
             </div>
           </div>
         </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 d-flex">
+          <div class="single-blog formation-card w-100">
+            <div class="blog-img">
+              <a href="javascript:void(0)" class="d-block h-100">
+                <img src="assets/images/che-cose-green-belt-2.jpg" alt="Bureautique et Outils Professionnels"
+                  class="img-fluid h-100 w-100" />
+              </a>
+            </div>
+            <div class="blog-content p-3">
+              <div class="text-center mb-3" style="min-height: 60px;">
+                <h4>
+                  <a href="javascript:void(0)" class="fw-bold" style="font-size: 1.2rem; line-height: 1.4;">
+                    Six Sigma Green Belt <br>/ Yellow Belt
+                  </a>
+                </h4>
+                <p class="text-muted small m-0">Performance & Qualité</p>
+              </div>
+
+              <p class="equal-height-text text-justify px-3">
+                Maîtrisez la méthodologie Six Sigma pour piloter l’excellence et la qualité dans vos processus.
+                Nos formations Green Belt et Yellow Belt vous apportent les outils et les techniques DMAIC nécessaires
+                pour identifier les causes de variabilité, réduire les défauts et améliorer durablement la performance
+                opérationnelle de votre organisation.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 d-flex">
+          <div class="single-blog formation-card w-100">
+            <div class="blog-img">
+              <a href="javascript:void(0)" class="d-block h-100">
+                <img src="assets/images/CEH-1.jpg" alt="Bureautique et Outils Professionnels"
+                  class="img-fluid h-100 w-100" />
+              </a>
+            </div>
+            <div class="blog-content p-3">
+              <div class="text-center mb-3" style="min-height: 60px;">
+                <h4>
+                  <a href="javascript:void(0)" class="fw-bold" style="font-size: 1.2rem; line-height: 1.4;">
+                    Ethical Hacking
+                  </a>
+                </h4>
+                <p class="text-muted small m-0">Cybersécurité & Pentesting</p>
+              </div>
+
+              <p class="equal-height-text text-justify px-3">
+                Apprenez les techniques d’évaluation de la sécurité (pentesting) et les bonnes pratiques pour protéger
+                vos
+                systèmes. Nos formations couvrent l’analyse de vulnérabilités, les tests d’intrusion réseau et
+                applicatif,
+                l’exploitation éthique, la remédiation, et la sécurisation du code — tout en respectant le cadre légal
+                et éthique.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
 
       <div class="text-center mt-4">
@@ -593,6 +938,7 @@
       </div>
     </div>
   </section>
+
 
   <!--====== BLOG PART ENDS ======-->
   <section class="clients">
@@ -787,14 +1133,16 @@
   <!--====== Main js ======-->
   <script src="assets/js/main.js"></script>
 
-  <!--==== Clear Contact Form ====-->
+  <!-- Bootstrap JS (nécessaire pour le collapse) -->
   <script src="assets/js/clear-form.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!--==== Pause start videos welcom ====-->
   <script src="assets/js/play_pause.js"></script>
 
   <script>
-    // Get the navbar
+    // Get the navbar 
     const header = document.querySelector(".header_navbar");
 
     // for menu scroll

@@ -76,3 +76,14 @@
   z-index: 0;
   pointer-events: none;
 }
+
+.accordion-item {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-button {
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 0.875rem;
+}
